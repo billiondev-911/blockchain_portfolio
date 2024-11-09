@@ -5,9 +5,9 @@ const Experience = () => {
 
             <ul>
                 <li>
-                    <i>International Institute Of Information Technology</i>, 2019-2023
+                    <i>Universidad Nacional, Bogota, Colombia</i>, 2004-2008
                     <ul>
-                        <li>Currently having 8.00 CGPA</li>
+                        <li>Bachelor of Computer Science</li>
                     </ul>
                 </li>
                 <li>

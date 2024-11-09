@@ -3,10 +3,7 @@ import Whitelist from '../assets/Whitelist.png';
 import CoinMarketCap from '../assets/Coin MarketCap Clone.png';
 import Invoicing from '../assets/Invoicing.png';
 import defiTippingDapp from '../assets/defiTippingDapp.png';
-import uniswapV3PoolFinder from '../assets/uniswapV3PoolFinder.png';
 import CheckContractAddressOrRegularAddress from '../assets/CheckContractAddressOrRegularAddress.png'
-import uniswapV3TokenDetailsFinder from '../assets/uniswapV3TokenDetailsFinder.png'
-import uniswapV3Oracle from '../assets/uniswapV3Oracle.png'
 const Projects = () => {
     return (
         <section className="projects">
@@ -50,43 +47,7 @@ const Projects = () => {
                     <a href="https://github.com/coderRaj07/Defi_tipping-Dapp" target="_blank" className="button">Code</a>
                 </div>
 
-                <div className="projects__card">
-                    <h3><b>Uniswap V3 pool finder</b></h3>
-                    <img src={uniswapV3PoolFinder} alt="uniswapV3PoolFinder Page" />
-                    <p><li>Earlier I had a problem of getting pool Address to perform swap using Uniswap Labs V3 protocol programmatically</li>
-                       <li>So I created a Dapp using which we can get Pool Address of any two pairs of tokens available on Uniswap V3 Protocol</li>
-                       <br/>
-                    </p>
-
-                    <a href="https://uniswap-v3-pool-address-finder.vercel.app/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/coderRaj07/Uniswap_V3_Pool_Address_Finder" target="_blank" className="button">Code</a>
-                </div>
-
-                <div className="projects__card">
-                    <h3><b>Uniswap V3 Token Details finder</b></h3>
-                    <img src={uniswapV3TokenDetailsFinder} alt="uniswapV3TokenDetailsFinder Page" />
-                    <p> <li>Searching for an address of a particular token is an hectic process and we may end up getting a wrong address</li>
-                        <li>Using this dapp We can find the address as well as other details about any token that is getting traded on Uniswap V3 Protocol just by putting the Token's symbol as an input</li>
-                        <li>This Dapp uses GraphQL to query the <b>Uniswap V3 subgraph</b> and axios to fetch data from that particular subgraph</li>
-                       <br/>
-                    </p>
-
-                    <a href="https://token-details-finder.vercel.app/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/coderRaj07/Token-Details-Finder-Using-Uniswap-V3-Subgraph" target="_blank" className="button">Code</a>
-                </div>
-
-                 <div className="projects__card">
-                    <h3><b>Uniswap V3 Oracle</b></h3>
-                    <img src={uniswapV3Oracle} alt="uniswapV3Oracle page" />
-                    <p><li>The Price and amount out shown in the Uniswap can easily be manipulated, if attacker knows that we are relying on it's latest price </li>
-                       <li>The attacker can make a really large trade on Uniswap when liquidity is low and it changes the price </li>
-                       <li>To avoid such oracle problems I have created a Dapp that fetches <b>OracleLibrary.sol</b> functionalities through our custom smart contract to calculate the amount of tokens to be received and shows the token amount to be received on frontend</li>
-                       <br/>
-                    </p>
-
-                    <a href="https://uniswapv3oracle.vercel.app/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/coderRaj07/UniswapV3_Oracle" target="_blank" className="button">Code</a>
-                </div>
+                
             </div>
         </section>
     );
