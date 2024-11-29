@@ -7,7 +7,7 @@ const Header = () => {
             <img src={profile} alt="Andres" />
 
             <div className='header__content'>
-                <h1>Hi, I am Andres</h1>
+                <h1>Hi, I am Vilk dmytro</h1>
                 <br></br>
                 <p>Fullstack web3 Developer</p>
                 <br></br>
